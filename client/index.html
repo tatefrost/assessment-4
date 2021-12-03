@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href='stylesheet.css'>
+  </head>
+  <body class="container">
+    <header>
+      <h1 id='rad'>a rad website</h1>
+      <section>
+        
+        <button class='buttons' id="complimentButton">Get a compliment</button>
+        <button class='buttons'id="fortuneButton">Get a fortune</button>
+        
+      </section>
+    </header>
+
+    <section class='features'>
+      <ul>
+        <li><a href='https://pbs.twimg.com/media/EROCn0aVAAATFQP.jpg'>See a photo of a cat</a></li>
+      </ul>
+
+      <form>
+        <label for='name'>Name:</label>
+        <input type='text' id='name'><br><br>
+        <label for='color'>Color:</label>
+        <input type='text' id='color'><br><br>
+        <button id='submit'>Submit</button>
+      </form>
+    </section>
+
+    <section id='personContainer'></section>
+
+    <section>
+      <button id='specialFortune'>Click for special fortune</button>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src='main.js'></script>
+
+  </body>
+</html>
